@@ -12,7 +12,7 @@
 
 | Dossier/Fichier | Description |
 |------------------|-------------|
-| [`/`](./BD2.json) | DB2 : Prod{[Cat],Supp, [St]}, Wa, OL, Cl |
+| [`/BD2.json`](./BD2.json) | DB2 : Prod{[Cat],Supp, [St]}, Wa, OL, Cl |
 ---
 
 ## 📘 Documents importants
