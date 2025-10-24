@@ -4,7 +4,7 @@
         "name" : "flower",
         "price":10,
         "brand":"supermarket",
-        "description":"it is a flower",
+        "description":"it is a flower", 
         "image_url": "www.flower.com/myflower",
         "cat" : [],
         "Supp" : {"IDS": "",
