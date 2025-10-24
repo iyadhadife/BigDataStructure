@@ -1,11 +1,32 @@
 {
-    "db2.connections": [
-        {
-        "database": "BIGDATA",
-        "hostname": "localhost",
-        "port": 50000,
-        "username": "db2admin",
-        "password": "ihadi123"
-        }
-    ]
+    "prod": {
+        "IDP" : 1,
+        "name" : "flower",
+        "price":10,
+        "brand":"supermarket",
+        "description":"it is a flower",
+        "image_url": "www.flower.com/myflower",
+        "cat" : [],
+        "Supp" : {"IDS": "",
+                "name": "",
+                "SIRET": "",
+                "headOffice": "",
+                "Revenue": ""},
+        "st" : []
+    },
+    "wa" : {"IDW" : "",
+            "address": "",
+            "capacity":""},
+    "ol" : {"date":"",
+            "quantity":"",
+            "deliveryDate":"",
+            "comment":"",
+            "grade":""},
+    "cl" : {"IDC":"",
+            "ln":"",
+            "fn":"",
+            "address":"",
+            "nationality":"",
+            "birthDate":"",
+            "email":""}
 }
