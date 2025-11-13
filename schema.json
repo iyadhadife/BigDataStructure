@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "product": {
+      "type": "object",
+      "properties": {
+        "IDP": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "brand": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "image_url": {
+          "type": "string"
+        },
+        "categories": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title"
+              ]
+            }
+          ]
+        },
+        "supplier": {
+          "type": "object",
+          "properties": {
+            "IDS": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "SIRET": {
+              "type": "integer"
+            },
+            "head_office": {
+              "type": "string"
+            },
+            "revenue": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "IDS",
+            "name",
+            "SIRET",
+            "head_office",
+            "revenue"
+          ]
+        }
+      },
+      "required": [
+        "IDP",
+        "name",
+        "price",
+        "brand",
+        "description",
+        "image_url",
+        "categories",
+        "supplier"
+      ]
+    },
+    "stock": {
+      "type": "object",
+      "properties": {
+        "IDP": {
+          "type": "integer"
+        },
+        "IDW": {
+          "type": "integer"
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "location": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "IDP",
+        "IDW",
+        "quantity",
+        "location"
+      ]
+    },
+    "warehouse": {
+      "type": "object"
+    },
+    "OrderLine": {
+      "type": "object"
+    },
+    "Client": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "product",
+    "stock",
+    "warehouse",
+    "OrderLine",
+    "Client"
+  ]
+}

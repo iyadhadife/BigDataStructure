@@ -1,4 +1,4 @@
-# BIG Data Structure
+# BigDataStructure
 
 ## 👥 Team
 
