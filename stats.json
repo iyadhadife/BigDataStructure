@@ -1,0 +1,12 @@
+{
+  "clients": 10000000,
+  "products": 100000,
+  "orderlines": 4000000000,
+  "warehouses": 200,
+  "servers": 1000,
+  "avg_orders_per_client": 100,
+  "avg_products_per_order": 20,
+  "avg_categories_per_product": 2,
+  "brands": 5000,
+  "apple_products": 50
+}
